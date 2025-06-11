@@ -1,0 +1,87 @@
+[
+  {
+    "id": "web-dev",
+    "name": "Web Development",
+    "projects": [
+      {
+        "id": "muhle-pro-tours",
+        "title": "Muhle Pro Tours Website",
+        "description": "A vibrant and user-friendly travel website designed to showcase exciting tour packages and travel experiences. Featuring stunning visuals and an intuitive layout, the site invites visitors to explore various destinations, learn about tour details, and easily book their next adventure. Its clean design and smooth navigation create an engaging browsing experience, inspiring wanderlust and making trip planning effortless for travel enthusiasts.",
+        "imageUrl": "/images/MPT.png",
+        "techStack": ["HTML", "CSS", "JavaScript"],
+        "githubUrl": "https://github.com/PercyNova/muhle-pro-tours",
+        "demoUrl": "https://muhleprotours.netlify.app/"
+      },
+
+
+      {
+        "id": "alex-carter-&-associates",
+        "title": "Alex Carter & Associates",
+
+        "description": "A professional consultancy website showcasing expert services in business strategy and advisory. With a clean, modern design, the site provides visitors with easy access to information about the firm’s offerings, team expertise, and contact details. It emphasizes clear communication, trust, and professionalism to attract clients seeking tailored business solutions. The responsive layout ensures a seamless user experience across all devices.",
+        "imageUrl": "/images/project-3.png",
+        "techStack": ["HTML", "CSS", "JavaScript"],
+        "githubUrl": "https://github.com/PercyNova/AlexCarter-Associates",
+        "demoUrl": "https://alexcarter-associates.netlify.app/"
+      },
+      {
+        "id": "visuallens-photography",
+        "title": "Vision Lens Photography",
+        "description": "A sleek and modern website designed for a professional optical business. It highlights a wide range of eyewear products and eye care services with clear visuals and a clean, minimalist layout. The site provides easy navigation for users to explore collections, book appointments, and learn about the company’s expertise, delivering a polished and trustworthy online presence for customers seeking quality vision solutions.",
+        "imageUrl": "/images/VLP.png",
+        "techStack": ["HTML", "CSS", "JavaScript"],
+        "githubUrl": "https://github.com/PercyNova/VisionLensPhotography",
+        "demoUrl": "https://social-dashboard-demo.com"
+      }
+    ]
+  },
+  {
+    "id": "data-science",
+    "name": "Data Analytics",
+    "projects": [
+      {
+        "id": "Northwind-analytics",
+        "title": "Northwind Sales Analytics",
+        "description": "SQL scripts and resources for analyzing the classic Northwind sample database. It’s designed to help users practice SQL querying and data analysis by exploring sales, customers, products, and shipping data to extract business insights.",
+        "imageUrl": "/images/NWT.png",
+        "techStack": ["Microsoft SQL"],
+        "githubUrl": "https://github.com/PercyNova/NorthWindTraders",
+        "demoUrl": "#"
+      },
+      {
+        "id": "hr-employee-attrition",
+        "title": "HR Employee Attrition",
+        "description": "Analyzing and predicting employee attrition within an organization. The project aims to identify patterns and reasons behind employee turnover, predict which employees are likely to leave, and provide actionable recommendations to reduce attrition.",
+        "imageUrl": "/images/HREA.png",
+        "techStack": ["Python", "Pandas", "NumPy", "Scikit-learn", "Power BI", "CSV"],
+        "githubUrl": "https://github.com/PercyNova/HR-Employee-Attribution",
+        "demoUrl": "#"
+      },
+      {
+        "id": "sales-trends-customer-insights",
+        "title": "Sales Trends & Customer Insights in E-Commerce",
+        "description": "An in-depth analysis of e-commerce sales data to uncover customer behavior, seasonal trends, and payment preferences. Aimed at optimizing marketing strategies and enhancing customer experience.",
+        "imageUrl": "/images/STCI.png",
+        "techStack": ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Jupyter Notebook"],
+        "githubUrl": "https://github.com/PercyNova/Sales-Trends-and-Customer-Insights-in-E-Commerce-by-EE",
+        "demoUrl": "#"
+      }
+
+    ]
+  },
+  {
+    "id": "ai-ml",
+    "name": "AI",
+    "projects": [
+      {
+        "id": "mind-spark",
+        "title": "MindSpark Hospital AI Kiosk",
+        "description": "An AI-powered hospital kiosk system designed to streamline patient registration, manage medical records, and handle inquiries. It reduces human error, enhances accuracy, and alleviates staff workload by automating administrative tasks and providing efficient, data-driven insights.",
+        "imageUrl": "/images/MAI.png",
+        "techStack": ["Python", "Rasa", "Flask", "SQLite", "HTML", "CSS"],
+        "githubUrl": "https://github.com/PercyNova/MindSpark",
+        "demoUrl": null
+      }
+    ]
+  }
+]

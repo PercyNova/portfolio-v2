@@ -1,0 +1,172 @@
+{
+  "fields": [
+    {
+      "id": "all",
+      "name": "All Projects",
+      "color": "bg-spotify-green"
+    },
+    {
+      "id": "webdev",
+      "name": "Web Development",
+      "color": "bg-dark-navy"
+    },
+    {
+      "id": "dataAnalytics",
+      "name": "Data Analytics",
+      "color": "bg-dark-navy"
+    },
+    {
+      "id": "ai",
+      "name": "AI",
+      "color": "bg-dark-navy"
+    }
+  ],
+
+  "education": {
+    "all": [
+      {
+        "degree": "Diploma in Information Technology",
+        "school": "Vaal University of Technology",
+        "year": "2022-2024"
+      },
+      {
+        "degree": "Matric",
+        "school": "Matthew Phosa College",
+        "year": "2021"
+      }
+    ]
+  },
+
+  "skills": {
+    "all": {
+      "comfortable": [
+        "Python",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "MySQL",
+        "PostgreSQL",
+        "MS Office (Word, Excel, Access, PowerPoint)",
+        "Microsoft SQL Server",
+        "Power BI"
+      ],
+      "learning": [
+        "React",
+        "Flask",
+        "Tailwind CSS",
+        "Node.js",
+        "SQLite",
+        "Natural Language Processing (NLP)",
+        "Machine Learning",
+        "TensorFlow",
+        "PyTorch",
+        "Tableau",
+        "Jupyter Notebook",
+        "Rasa",
+        "Java",
+        "Kali Linux",
+        "Metasploit",
+        "Penetration Testing",
+        "Cybersecurity"
+      ]
+    },
+    "webdev": {
+      "comfortable": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Python",
+        "MySQL",
+        "PostgreSQL"
+      ],
+      "learning": [
+        "React",
+        "Flask",
+        "Tailwind CSS",
+        "Node.js",
+        "SQLite"
+      ]
+    },
+    "dataAnalytics": {
+      "comfortable": [
+        "Python",
+        "Microsoft SQL Server",
+        "PostgreSQL",
+        "MS Office (Word, Excel, Access, PowerPoint)",
+        "Power BI"
+      ],
+      "learning": [
+        "Natural Language Processing (NLP)",
+        "Machine Learning",
+        "TensorFlow",
+        "PyTorch",
+        "Tableau",
+        "Jupyter Notebook",
+        "Rasa",
+        "Java"
+      ]
+    },
+    "cybersecurity": {
+      "comfortable": [
+        "Python",
+        "Microsoft SQL Server"
+      ],
+      "learning": [
+        "Rasa",
+        "Kali Linux",
+        "Metasploit",
+        "Penetration Testing",
+        "Cybersecurity"
+      ]
+    }
+  },
+
+
+
+  "softSkills": {
+    "allskills": [
+      "Leadership",
+      "Communication",
+      "Time Management",
+      "Adaptability",
+      "Creativity",
+      "Problem Solving",
+      "Critical Thinking",
+      "Teamwork",
+      "Work Ethic",
+      "Attention to Detail",
+      "Collaboration",
+      "Curiosity",
+      "Continuous Learning"
+    ]
+  },
+  
+  "certificates": {
+    "all": [
+      {
+        "name": "Cybersecurity Fundamentals",
+        "issuer": "IBM SkillsBuild",
+        "year": "2025",
+        "url": "../data/cybersecurity-fundamentals.pdf"
+      },
+      {
+        "name": "Python Developer",
+        "issuer": "Sololearn",
+        "year": "2024",
+        "url": "../data/python-developer.pdf"
+      },
+      {
+        "name": "SQL Intermediate",
+        "issuer": "Sololearn",
+        "year": "2024",
+        "url": "../data/sql-intermediate.pdf"
+      },
+      {
+        "name": "JavaScript",
+        "issuer": "Sololearn",
+        "year": "2022",
+        "url": "../data/Javascript.pdf"
+      }
+    ]
+  }
+}

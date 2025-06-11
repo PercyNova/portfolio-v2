@@ -1,0 +1,351 @@
+/* Resume.css - Spotify inspired resume styling with updated layout */
+
+:root {
+  --spotify-green: #1DB954;
+  --spotify-black: #000000; /* Darker black for better contrast */
+  --spotify-dark-gray: #121212;
+  --spotify-light-gray: #282828;
+  --spotify-lighter-gray: #404040;
+  --spotify-white: #FFFFFF;
+  --spotify-off-white: #B3B3B3;
+  --spotify-accent: #535353;
+  --dark-navy: #2E3856;
+  --light-navy: #4A5578;
+  --purple-accent: #6A35FF;
+}
+
+body {
+  background-color: var(--spotify-black);
+  color: var(--spotify-white);
+  font-family: 'Circular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.resume-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* Category selector styling (Spotify-style) */
+.category-selector {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.category-button {
+  border-radius: 2rem;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-weight: 700;
+  color: var(--spotify-white);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.bg-spotify-green {
+  background-color: var(--spotify-green);
+}
+
+.bg-dark-navy {
+  background-color: var(--dark-navy);
+}
+
+.category-button:hover {
+  transform: scale(1.05);
+}
+
+/* Resume content layout - Updated for 75/25 split */
+.resume-content {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .resume-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Resume information styling */
+.resume-info {
+  background-color: var(--spotify-dark-gray);
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.resume-title {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: var(--spotify-green); /* Simplified color for better compatibility */
+}
+
+.resume-subtitle {
+  color: var(--spotify-off-white);
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+/* Resume sections */
+.resume-section {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--spotify-accent);
+}
+
+.section-title {
+  font-size: 1.5rem;
+  color: var(--spotify-green);
+  margin-bottom: 1rem;
+}
+
+/* Experience items */
+.experience-item,
+.education-item {
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  border-left: 3px solid var(--spotify-green);
+}
+
+.experience-item h4,
+.education-item h4 {
+  font-size: 1.2rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.company,
+.school {
+  font-weight: 600;
+  margin: 0 0 0.3rem 0;
+}
+
+.period,
+.year {
+  color: var(--spotify-off-white);
+  font-size: 0.9rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.description {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Skills */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.skill-badge {
+  display: flex;
+  align-items: center;
+  background-color: var(--spotify-lighter-gray);
+  color: var(--spotify-white);
+  border-radius: 1rem;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.skill-badge:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.skill-icon {
+  margin-right: 0.5rem;
+}
+
+.soft-skill {
+  background-color: var(--light-navy);
+  color: var(--spotify-white);
+}
+
+/* Project grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.project-card {
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+  height: 120px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+  padding: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-overlay h4 {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--spotify-white);
+  max-width: 80%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.view-project-icon {
+  color: var(--spotify-green);
+}
+
+/* PDF section */
+.pdf-section {
+  margin-top: 2rem;
+}
+
+.pdf-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--spotify-green);
+  color: var(--spotify-black);
+  border: none;
+  border-radius: 4px;
+  padding: 0.7rem 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.pdf-button:hover {
+  background-color: #1ed760;
+  transform: translateY(-2px);
+}
+
+.pdf-preview {
+  margin-top: 1rem;
+  background-color: var(--spotify-light-gray);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.pdf-iframe {
+  width: 100%;
+  height: 500px;
+  border: none;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.download-button {
+  display: block;
+  background-color: var(--purple-accent);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.8rem;
+  margin-top: 1rem;
+  border-radius: 4px;
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+
+.download-button:hover {
+  background-color: #7f50ff;
+}
+
+/* Certificates section */
+.certificates-section {
+  background-color: var(--spotify-dark-gray);
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.certificates-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.certificate-card {
+  background-color: var(--spotify-light-gray);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+
+.certificate-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.certificate-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.certificate-info {
+  padding: 0.8rem;
+}
+
+.certificate-info h4 {
+  font-size: 0.9rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.certificate-info p {
+  font-size: 0.8rem;
+  color: var(--spotify-off-white);
+  margin: 0 0 0.3rem 0;
+}
+
+/* Loading and error states */
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  color: var(--spotify-green);
+  font-size: 1.2rem;
+}
+
+.error-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  color: #ff5252;
+  font-size: 1.2rem;
+}

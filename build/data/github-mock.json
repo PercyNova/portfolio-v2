@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "E-commerce Website",
+      "description": "A fully functional e-commerce website built with React and Node.js.",
+      "html_url": "https://github.com/yourusername/e-commerce-website"
+    },
+    {
+      "id": 2,
+      "name": "Personal Blog",
+      "description": "A blog where I share my thoughts and experiences.",
+      "html_url": "https://github.com/yourusername/personal-blog"
+    },
+    {
+      "id": 3,
+      "name": "Image Recognition Model",
+      "description": "A deep learning model for image recognition.",
+      "html_url": "https://github.com/yourusername/image-recognition-model"
+    },
+    {
+      "id": 4,
+      "name": "Chatbot",
+      "description": "A conversational AI chatbot built with Rasa.",
+      "html_url": "https://github.com/yourusername/chatbot"
+    },
+    {
+      "id": 5,
+      "name": "Firewall Configuration",
+      "description": "Configuring firewalls for secure networks.",
+      "html_url": "https://github.com/yourusername/firewall-config"
+    },
+    {
+      "id": 6,
+      "name": "Penetration Testing",
+      "description": "Performing penetration testing to identify vulnerabilities.",
+      "html_url": "https://github.com/yourusername/penetration-testing"
+    }
+  ]

@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.header-container {
+  @apply flex justify-between items-center;
+}
+
+.search-bar-container {
+  @apply w-full sm:w-2/3 md:w-1/3 lg:w-1/4 mx-4;
+}
+
+.profile-icon-container {
+  @apply flex items-center space-x-4;
+}
+
